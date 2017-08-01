@@ -6,26 +6,23 @@ using System.Threading.Tasks;
 
 namespace SeguimientoResultadoVentas.Clases
 {
-    public class Asesor
+    public class Usuario
     {
         #region Variables privadas
+
         private int id;
-        private int numero_empleado;
         private string nombre;
-        private Seccion seccion_id;
+        private string clave;
         private int status;
+        private DateTime registrado;
+
         #endregion
 
         #region Variables encapsuladas "solo lectura"
+
         public int Id
         {
             get { return id; }
-        }
-
-
-        public int Numero_empleado
-        {
-            get { return numero_empleado; }
         }
 
 
@@ -35,9 +32,9 @@ namespace SeguimientoResultadoVentas.Clases
         }
 
 
-        public Seccion Seccion_id
+        public string Clave
         {
-            get { return seccion_id; }
+            get { return clave; }
         }
 
 
@@ -45,7 +42,12 @@ namespace SeguimientoResultadoVentas.Clases
         {
             get { return status; }
         }
-        #endregion
 
+
+        public DateTime Registrado
+        {
+            get { return registrado; }
+        }
+        #endregion
     }
 }
