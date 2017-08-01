@@ -9,7 +9,8 @@ using System.Windows;
 namespace SeguimientoResultadoVentas
 {
     /// <summary>
-    /// Lógica de interacción para App.xaml
+    /// Lógica de interacción para App.xaml /Prueba para cambios den GITHub
+    /// 
     /// </summary>
     public partial class App : Application
     {
