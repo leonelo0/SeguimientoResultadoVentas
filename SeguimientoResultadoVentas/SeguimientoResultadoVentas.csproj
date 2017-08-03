@@ -40,29 +40,62 @@
     <Reference Include="Castle.ActiveRecord">
       <HintPath>..\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.dll</HintPath>
     </Reference>
+    <Reference Include="Castle.ActiveRecord">
+      <HintPath>..\..\FOMAPOSOFT\FOMAPOSOFT\bin\Debug\Castle.ActiveRecord.dll</HintPath>
+    </Reference>
     <Reference Include="Castle.ActiveRecord.Web">
       <HintPath>..\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.Web.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Components.Validator">
       <HintPath>..\packages\Castle.Components.Validator.2.5.0\lib\NET40\Castle.Components.Validator.dll</HintPath>
     </Reference>
+    <Reference Include="Castle.Components.Validator">
+      <HintPath>..\..\FOMAPOSOFT\FOMAPOSOFT\bin\Debug\Castle.Components.Validator.dll</HintPath>
+    </Reference>
     <Reference Include="Castle.Core">
       <HintPath>..\packages\Castle.Core.2.5.1\lib\NET35\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>..\..\FOMAPOSOFT\FOMAPOSOFT\bin\Debug\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="daReport">
+      <HintPath>..\..\FOMAPOSOFT\FOMAPOSOFT\bin\Debug\daReport.dll</HintPath>
+    </Reference>
+    <Reference Include="DirectShowLib-2005">
+      <HintPath>..\..\FOMAPOSOFT\FOMAPOSOFT\bin\Debug\DirectShowLib-2005.dll</HintPath>
     </Reference>
     <Reference Include="Iesi.Collections">
       <HintPath>..\packages\Iesi.Collections.1.0.1\lib\Iesi.Collections.dll</HintPath>
     </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\FOMAPOSOFT\FOMAPOSOFT\bin\Debug\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\FOMAPOSOFT\FOMAPOSOFT\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="NHibernate">
       <HintPath>..\packages\NHibernate.3.0.0.4000\lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\FOMAPOSOFT\FOMAPOSOFT\bin\Debug\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate.ByteCode.Castle">
       <HintPath>..\packages\NHibernate.3.0.0.4000\lib\NHibernate.ByteCode.Castle.dll</HintPath>
     </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle">
+      <HintPath>..\..\FOMAPOSOFT\FOMAPOSOFT\bin\Debug\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
     <Reference Include="NHibernate.Search">
       <HintPath>..\packages\Castle.Activerecord.3.0.0.1\lib\Net40\NHibernate.Search.dll</HintPath>
     </Reference>
+    <Reference Include="NHibernate.Search">
+      <HintPath>..\..\FOMAPOSOFT\FOMAPOSOFT\bin\Debug\NHibernate.Search.dll</HintPath>
+    </Reference>
     <Reference Include="Remotion.Data.Linq">
       <HintPath>..\packages\NHibernate.3.0.0.4000\lib\Remotion.Data.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="SigPlusNET">
+      <HintPath>..\..\FOMAPOSOFT\FOMAPOSOFT\bin\Debug\SigPlusNET.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -97,6 +130,7 @@
     <Compile Include="ClasesBD\SeccionBD.cs" />
     <Compile Include="ClasesBD\UsuarioBD.cs" />
     <Compile Include="Clases\Asesor.cs" />
+    <Compile Include="Clases\Operador.cs" />
     <Compile Include="Clases\PlanVentaAnual.cs" />
     <Compile Include="Clases\PlanVentaDetalle.cs" />
     <Compile Include="Clases\Seccion.cs" />
